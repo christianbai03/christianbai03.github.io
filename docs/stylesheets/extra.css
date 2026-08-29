@@ -1,0 +1,263 @@
+/* ==========================================================================
+   Christian Bai portfolio theme
+   Palette carried over from the Wix build. Deep navy ground, orange accent.
+   ========================================================================== */
+
+:root {
+  --cb-orange: #e8590c;
+  --cb-orange-bright: #ff6b1a;
+  --cb-navy-900: #070d1c;
+  --cb-navy-800: #0a1128;
+  --cb-navy-700: #101a38;
+  --cb-navy-600: #17233f;
+  --cb-slate-400: #8896b3;
+}
+
+/* --- Light scheme ------------------------------------------------------- */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--cb-navy-800);
+  --md-primary-fg-color--light: var(--cb-navy-700);
+  --md-primary-fg-color--dark: var(--cb-navy-900);
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #ffffffb3;
+  --md-accent-fg-color: var(--cb-orange);
+  --md-accent-fg-color--transparent: #e8590c1a;
+  --md-typeset-a-color: #c2410c;
+}
+
+/* --- Dark scheme -------------------------------------------------------- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--cb-navy-900);
+  --md-primary-fg-color--light: var(--cb-navy-700);
+  --md-primary-fg-color--dark: #04070f;
+  --md-primary-bg-color: #e9edf5;
+  --md-accent-fg-color: var(--cb-orange-bright);
+  --md-accent-fg-color--transparent: #ff6b1a1f;
+  --md-typeset-a-color: var(--cb-orange-bright);
+  --md-default-bg-color: var(--cb-navy-800);
+  --md-default-fg-color: #e6ebf5;
+  --md-default-fg-color--light: #b9c3d6;
+  --md-default-fg-color--lighter: #7c88a3;
+  --md-code-bg-color: #0d1630;
+  --md-footer-bg-color: var(--cb-navy-900);
+  --md-footer-bg-color--dark: #04070f;
+}
+
+/* --- Typography --------------------------------------------------------- */
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2.2rem;
+}
+
+.md-typeset h3 {
+  font-weight: 650;
+}
+
+/* --- Hero --------------------------------------------------------------- */
+.cb-hero {
+  margin: 0 0 3rem;
+  padding: 3.2rem 0 2.6rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.cb-hero .cb-eyebrow {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.28rem 0.7rem;
+  border: 1px solid var(--md-accent-fg-color);
+  border-radius: 2px;
+  color: var(--md-accent-fg-color);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.md-typeset .cb-hero h1 {
+  margin: 0 0 0.9rem;
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+.cb-hero .cb-lede {
+  max-width: 34rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.cb-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.6rem;
+}
+
+.md-typeset .cb-btn {
+  display: inline-block;
+  padding: 0.6rem 1.25rem;
+  border: 1px solid var(--md-accent-fg-color);
+  border-radius: 3px;
+  background: var(--md-accent-fg-color);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.md-typeset .cb-btn:hover {
+  background: transparent;
+  color: var(--md-accent-fg-color);
+}
+
+.md-typeset .cb-btn--ghost {
+  background: transparent;
+  border-color: var(--md-default-fg-color--lighter);
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .cb-btn--ghost:hover {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+}
+
+/* --- Card grid ---------------------------------------------------------- */
+.cb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1.6rem 0 2.4rem;
+}
+
+.md-typeset .cb-card {
+  display: block;
+  padding: 1.3rem 1.4rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid var(--md-accent-fg-color);
+  border-radius: 3px;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.md-typeset a.cb-card:hover {
+  border-color: var(--md-accent-fg-color);
+  transform: translateY(-2px);
+}
+
+.cb-card .cb-num {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--md-accent-fg-color);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.md-typeset .cb-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.cb-card p {
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.74rem;
+  line-height: 1.6;
+}
+
+/* --- Meta strip on project pages ---------------------------------------- */
+.cb-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  margin: 0 0 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.cb-meta div {
+  min-width: 7rem;
+}
+
+.cb-meta dt,
+.cb-meta .cb-k {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--md-accent-fg-color);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.cb-meta dd,
+.cb-meta .cb-v {
+  margin: 0;
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+/* --- Skill list --------------------------------------------------------- */
+.cb-skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 0.9rem;
+  margin: 1.4rem 0 2rem;
+}
+
+.cb-skill {
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 3px;
+}
+
+.cb-skill strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.82rem;
+}
+
+.cb-skill span {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.73rem;
+  line-height: 1.6;
+}
+
+/* --- Headshot ----------------------------------------------------------- */
+.cb-portrait {
+  float: right;
+  width: 13rem;
+  max-width: 40%;
+  margin: 0 0 1.4rem 1.8rem;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 44.98em) {
+  .cb-portrait {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1.4rem;
+  }
+  .md-typeset .cb-hero h1 {
+    font-size: 1.9rem;
+  }
+}
+
+/* --- Footer tidy -------------------------------------------------------- */
+.md-footer-meta__inner {
+  font-size: 0.66rem;
+}

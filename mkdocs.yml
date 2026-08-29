@@ -1,0 +1,118 @@
+site_name: Christian Bai
+site_description: Cybersecurity portfolio focused on web application penetration testing and FedRAMP red team assessments.
+site_author: Christian Bai
+
+# TODO Replace GITHUB-USERNAME with your actual GitHub username before deploying.
+site_url: https://GITHUB-USERNAME.github.io/
+repo_url: https://github.com/GITHUB-USERNAME/GITHUB-USERNAME.github.io
+repo_name: View source
+edit_uri: ""
+
+theme:
+  name: material
+  language: en
+  favicon: assets/favicon.png
+  icon:
+    logo: material/shield-half-full
+    repo: fontawesome/brands/github
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Follow system theme
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tooltips
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/GITHUB-USERNAME
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/LINKEDIN-SLUG
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:christian.bai0903@gmail.com
+      name: Email
+  generator: false
+
+copyright: Copyright &copy; 2026 Christian Bai
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Resume: resume.md
+  - Skills: skills.md
+  - Projects:
+      - projects/index.md
+      - Internship Experience: projects/internship.md
+      - Cloud Security Assessment: projects/cloud-security-assessment.md
+      - Offensive Security Labs: projects/offensive-security-labs.md
+      - Network and Wireless Security: projects/network-wireless-security.md
+      - Cybersecurity and Society: projects/cybersecurity-society.md
+      - Incident Response Simulation: projects/incident-response.md
+  - Capstone Reflection: capstone.md
+  - Contact: contact.md
