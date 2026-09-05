@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Projects
 
 Six pieces of work, each with the context, what I did, and what I took from it.

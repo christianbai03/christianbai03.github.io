@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Skills
 
 Six areas, each with what I actually do in it. Where a skill is still

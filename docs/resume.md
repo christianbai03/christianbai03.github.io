@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Resume
 
 [Download PDF](assets/christian-bai-resume.pdf){ .cb-btn }

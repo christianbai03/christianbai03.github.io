@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # About
 
 ![Christian Bai](assets/headshot.jpeg){ .cb-portrait }
