@@ -42,9 +42,3 @@ Supporting documents are linked on the individual pages.
 </a>
 
 </div>
-
-!!! note "On evidence"
-
-    Every page here should end with something a reader can open. A paper, a
-    report, a screenshot, a repo. A project page with no artifact attached is
-    a claim, and claims are what everybody else's portfolio is already full of.

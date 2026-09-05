@@ -83,9 +83,4 @@ receiving it.
 | Cloud | ScoutSuite, AWS console and CLI |
 | Infrastructure | Windows Server, Active Directory, Hyper-V |
 
-!!! note "Add as you go"
-
-    Keep this table honest. A tool belongs here once you have used it on real
-    work and could answer a follow-up question about it under pressure.
-
 [See the work](projects/index.md){ .cb-btn }
