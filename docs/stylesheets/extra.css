@@ -20,9 +20,14 @@
   --md-primary-fg-color--dark: var(--cb-navy-900);
   --md-primary-bg-color: #ffffff;
   --md-primary-bg-color--light: #ffffffb3;
-  --md-accent-fg-color: var(--cb-orange);
-  --md-accent-fg-color--transparent: #e8590c1a;
+  /* Text-safe accent. #E8590C on white is only 3.58:1 and fails WCAG AA
+     for normal text, so anything rendered AS text uses the darker value. */
+  --md-accent-fg-color: #c2410c;
+  --md-accent-fg-color--transparent: #c2410c1a;
   --md-typeset-a-color: #c2410c;
+  /* Non-text fill. 3.58:1 clears the 3:1 bar for UI components. */
+  --cb-fill: var(--cb-orange);
+  --cb-on-fill: var(--cb-navy-900);
 }
 
 /* --- Dark scheme -------------------------------------------------------- */
@@ -34,6 +39,8 @@
   --md-accent-fg-color: var(--cb-orange-bright);
   --md-accent-fg-color--transparent: #ff6b1a1f;
   --md-typeset-a-color: var(--cb-orange-bright);
+  --cb-fill: var(--cb-orange-bright);
+  --cb-on-fill: var(--cb-navy-900);
   --md-default-bg-color: var(--cb-navy-800);
   --md-default-fg-color: #e6ebf5;
   --md-default-fg-color--light: #b9c3d6;
@@ -86,6 +93,15 @@
   line-height: 1.1;
 }
 
+.cb-hero .cb-tagline {
+  max-width: 32rem;
+  margin: 0 0 1.2rem;
+  color: var(--md-default-fg-color);
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
 .cb-hero .cb-lede {
   max-width: 34rem;
   color: var(--md-default-fg-color--light);
@@ -103,10 +119,10 @@
 .md-typeset .cb-btn {
   display: inline-block;
   padding: 0.6rem 1.25rem;
-  border: 1px solid var(--md-accent-fg-color);
+  border: 1px solid var(--cb-fill);
   border-radius: 3px;
-  background: var(--md-accent-fg-color);
-  color: #ffffff;
+  background: var(--cb-fill);
+  color: var(--cb-on-fill);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -116,6 +132,7 @@
 
 .md-typeset .cb-btn:hover {
   background: transparent;
+  border-color: var(--md-accent-fg-color);
   color: var(--md-accent-fg-color);
 }
 
@@ -142,7 +159,7 @@
   display: block;
   padding: 1.3rem 1.4rem;
   border: 1px solid var(--md-default-fg-color--lightest);
-  border-left: 3px solid var(--md-accent-fg-color);
+  border-left: 3px solid var(--cb-fill);
   border-radius: 3px;
   color: inherit;
   text-decoration: none;

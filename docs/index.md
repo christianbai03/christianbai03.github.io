@@ -9,11 +9,21 @@ hide:
 
 # Christian Bai
 
+![Christian Bai](assets/headshot.jpeg){ .cb-portrait }
+
+<p class="cb-tagline">
+I break into systems so the people who own them don't have to find out the
+hard way.
+</p>
+
 <p class="cb-lede">
-Cybersecurity student and penetration tester. I focus on web application
-penetration testing and FedRAMP red team assessments, and I spend most of my
-time in the part of the field where you have to prove the finding, not just
-name it.
+I'm a cybersecurity student at Old Dominion University and a working
+penetration tester, focused on web application security and FedRAMP red team
+assessments. Most of my work is running authorized tests against web apps and
+network services with Burp Suite, Metasploit, and Kali Linux, then assessing
+cloud environments with ScoutSuite. I care as much about the write-up as the
+exploit, since a finding nobody understands doesn't get fixed. I'm looking for
+offensive security work where proving the risk is the whole job.
 </p>
 
 <div class="cb-actions" markdown>
