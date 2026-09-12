@@ -7,20 +7,6 @@ Markdown in `docs/`. Navigation and theming are in `mkdocs.yml`.
 Deployment uses `mkdocs gh-deploy`, which builds the site locally and pushes the
 result to a `gh-pages` branch.
 
-| What | Where |
-| --- | --- |
-| GitHub username, three places | `mkdocs.yml`, `docs/contact.md` |
-| LinkedIn URL | `mkdocs.yml`, `docs/contact.md` |
-| Your headshot | replace `docs/assets/headshot.jpg` |
-| Your resume PDF | replace `docs/assets/christian-bai-resume.pdf`, keep the filename |
-| Resume content | `docs/resume.md` |
-| Internship details and paper links | `docs/projects/internship.md` |
-| Capstone reflection | `docs/capstone.md` |
-| Project specifics | each file in `docs/projects/` |
-
-The placeholder headshot and resume PDF are generated stand-ins so the layout and
-the download button work. Both need replacing.
-
 ---
 
 ## Adding a page
