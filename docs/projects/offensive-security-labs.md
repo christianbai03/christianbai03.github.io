@@ -11,7 +11,7 @@
 
 Alongside my cybersecurity coursework at Old Dominion University I have been
 working through HackTheBox web exploitation modules and structured lab exercises.
-Everything here ran against systems built to be attacked, which is the only place
+Everything here ran against systems built to be attacked. That is the only place
 this work belongs.
 
 I chose to feature this over a single course because it is where the gap between
@@ -52,14 +52,14 @@ endpoints and started targeting records that actually existed in the database.
 
 ## What I learned
 
-The technical content matters less than the working habit it built. I learned to
-slow down and read what the application is actually telling me instead of
-assuming my payload is correct and the target is broken. Almost every time I was
-stuck, the response body already contained the answer.
+The techniques mattered less to me than the habit they built. I slowed down. I
+started reading what the application was actually telling me instead of assuming
+my payload was right and the target was broken. Almost every time I got stuck,
+the answer was already sitting in the response body.
 
-I also learned how much of offensive security is disciplined note-taking. The
-labs where I wrote down each attempt were the ones I could explain afterward, and
-being able to explain the path is what separates a finding from a screenshot.
+I also underestimated how much of this job is note-taking. The labs where I wrote
+down every attempt were the ones I could still explain a week later. Being able
+to walk someone through the path is what separates a finding from a screenshot.
 
 ## Why it matters for where I am going
 
