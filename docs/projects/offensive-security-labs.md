@@ -69,16 +69,4 @@ someone has asked me to test, under a scope agreement, with a written report at
 the end. The labs are where I get to be wrong cheaply, which is worth a great
 deal when the alternative is being wrong on a client engagement.
 
-## Artifacts
 
-!!! note "Add your evidence here"
-
-    Link two or three of the following, whichever you have on hand.
-
-    - Screenshots of completed HackTheBox modules or your profile progress page
-    - A lab report or write-up from your coursework
-    - Command logs or terminal captures from the Metasploit or password cracking
-      exercises
-
-    Screenshots of a shell on a lab target are strong evidence. Confirm the
-    target was a lab or school system before publishing anything.
