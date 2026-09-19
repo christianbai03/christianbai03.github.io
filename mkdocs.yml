@@ -3,8 +3,8 @@ site_description: Cybersecurity portfolio focused on web application penetration
 site_author: Christian Bai
 
 # TODO Replace GITHUB-USERNAME with your actual GitHub username before deploying.
-site_url: https://GITHUB-USERNAME.github.io/
-repo_url: https://github.com/GITHUB-USERNAME/GITHUB-USERNAME.github.io
+site_url: https://christianbai03.github.io/
+repo_url: https://github.com/christianbai03/christianbai03.github.io
 repo_name: View source
 edit_uri: ""
 
@@ -89,13 +89,13 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/GITHUB-USERNAME
+      link: https://github.com/christianbai03/christianbai03.github.io
       name: GitHub
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/LINKEDIN-SLUG
+      link: https://www.linkedin.com/in/christianbai03/
       name: LinkedIn
     - icon: fontawesome/solid/envelope
-      link: mailto:christian.bai0903@gmail.com
+      link: mailto:christian.bai03@gmail.com
       name: Email
   generator: false
 
@@ -105,7 +105,12 @@ nav:
   - Home: index.md
   - About: about.md
   - Resume: resume.md
-  - Skills: skills.md
+  - Skills:
+      - skills.md
+      - Web Application Testing: competencies/web-application-testing.md
+      - Technical Security Writing: competencies/security-writing.md
+      - Assessment Triage: competencies/assessment-triage.md
+      - Authorized Practice: competencies/authorized-practice.md
   - Projects:
       - projects/index.md
       - Internship Experience: projects/internship.md
