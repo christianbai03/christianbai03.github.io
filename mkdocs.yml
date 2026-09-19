@@ -106,7 +106,7 @@ nav:
   - About: about.md
   - Resume: resume.md
   - Skills:
-      - skills.md
+      - competencies/index.md
       - Web Application Testing: competencies/web-application-testing.md
       - Technical Security Writing: competencies/security-writing.md
       - Assessment Triage: competencies/assessment-triage.md

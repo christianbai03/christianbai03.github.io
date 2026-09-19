@@ -45,4 +45,4 @@ That last constraint is visible here. The pages on this site describe classes of
 vulnerability and methodology. No client, target, or host identifier appears
 anywhere in this portfolio.
 
-[All skills](../skills.md){ .cb-btn .cb-btn--ghost }
+[All competencies](index.md){ .cb-btn .cb-btn--ghost }

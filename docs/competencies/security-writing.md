@@ -52,4 +52,4 @@ This remains the competency I expect to develop longest. Writing precisely under
 engagement deadlines is a distinct discipline from testing, and being good at one
 does not carry over to the other.
 
-[All skills](../skills.md){ .cb-btn .cb-btn--ghost }
+[All competencies](index.md){ .cb-btn .cb-btn--ghost }

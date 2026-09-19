@@ -48,4 +48,4 @@ in an appendix.
 I treat severity as a claim I have to be able to support, not a field copied from
 tool output. That is the habit the cloud work built.
 
-[All skills](../skills.md){ .cb-btn .cb-btn--ghost }
+[All competencies](index.md){ .cb-btn .cb-btn--ghost }

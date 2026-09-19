@@ -52,4 +52,4 @@ requires understanding why the payload works.
 I am building toward assessment work where that second level is the deliverable.
 The [project pages](../projects/index.md) are structured as evidence of it.
 
-[All skills](../skills.md){ .cb-btn .cb-btn--ghost }
+[All competencies](index.md){ .cb-btn .cb-btn--ghost }
