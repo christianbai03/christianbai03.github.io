@@ -47,6 +47,56 @@ payload had fired. It reflects in the response body. That one sentence would hav
 saved me an hour, and it is the kind of thing you only really learn by losing the
 hour.
 
+<figure>
+<svg viewBox="0 0 700 300" role="img"
+     aria-label="A reflected cross-site scripting payload is sent in the request URL. The address bar still shows the raw payload text, unchanged. The rendered script appears only in the response body, which is where the result has to be checked."
+     style="max-width:100%;height:auto;color:currentColor">
+  <defs>
+    <marker id="cb-arrow2" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <rect x="12" y="34" width="190" height="96" rx="3" fill="none"
+        stroke="currentColor" stroke-width="1.5"/>
+  <text x="107" y="24" text-anchor="middle" font-size="12" font-weight="700"
+        fill="currentColor">browser</text>
+  <rect x="26" y="52" width="162" height="22" rx="2" fill="none"
+        stroke="currentColor" stroke-width="1" opacity="0.6"/>
+  <text x="34" y="67" font-size="10" font-family="monospace" fill="currentColor" opacity="0.85">?q=&lt;script&gt;…</text>
+  <text x="107" y="96" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.7">address bar</text>
+  <text x="107" y="114" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">unchanged</text>
+
+  <line x1="208" y1="70" x2="292" y2="70" stroke="currentColor"
+        stroke-width="1.5" marker-end="url(#cb-arrow2)"/>
+  <text x="250" y="60" text-anchor="middle" font-size="11" fill="currentColor">request</text>
+
+  <rect x="300" y="46" width="110" height="72" rx="3" fill="none"
+        stroke="currentColor" stroke-width="1.5"/>
+  <text x="355" y="78" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">application</text>
+  <text x="355" y="98" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.7">echoes input</text>
+  <path d="M 355 124 L 355 168 L 494 168" fill="none" stroke="currentColor"
+        stroke-width="1.5" marker-end="url(#cb-arrow2)"/>
+  <text x="430" y="160" text-anchor="middle" font-size="11" fill="currentColor">response</text>
+
+  <rect x="502" y="132" width="186" height="96" rx="3" fill="none"
+        stroke="#E8590C" stroke-width="2.5"/>
+  <text x="595" y="122" text-anchor="middle" font-size="12" font-weight="700"
+        fill="#E8590C">response body</text>
+  <text x="514" y="160" font-size="10" font-family="monospace" fill="currentColor" opacity="0.85">&lt;div&gt;results for</text>
+  <text x="514" y="178" font-size="10" font-family="monospace" fill="#E8590C">  &lt;script&gt;…&lt;/script&gt;</text>
+  <text x="514" y="196" font-size="10" font-family="monospace" fill="currentColor" opacity="0.85">&lt;/div&gt;</text>
+  <text x="595" y="218" text-anchor="middle" font-size="11" font-weight="700" fill="#E8590C">payload renders here</text>
+
+  <text x="350" y="270" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.75">
+    Refreshing the URL tells you nothing. The proof is downstream.
+  </text>
+</svg>
+<figcaption>Where a reflected XSS payload actually shows up. I spent an hour
+watching the address bar for a change that was never going to happen there.</figcaption>
+</figure>
+
 REST API exercises only worked once I stopped throwing methods at arbitrary
 endpoints and started targeting records that actually existed in the database.
 
@@ -69,4 +119,16 @@ someone has asked me to test, under a scope agreement, with a written report at
 the end. The labs are where I get to be wrong cheaply, which is worth a great
 deal when the alternative is being wrong on a client engagement.
 
+## Artifacts
 
+!!! note "Add your evidence here"
+
+    Link two or three of the following, whichever you have on hand.
+
+    - Screenshots of completed HackTheBox modules or your profile progress page
+    - A lab report or write-up from your coursework
+    - Command logs or terminal captures from the Metasploit or password cracking
+      exercises
+
+    Screenshots of a shell on a lab target are strong evidence. Confirm the
+    target was a lab or school system before publishing anything.
