@@ -5,8 +5,10 @@ hide:
 
 # Projects
 
-Six pieces of work, each with the context, what I did, and what I took from it.
-Supporting documents are linked on the individual pages.
+Each page covers the context, what I did, and what I took from it. Supporting
+documents are linked on the individual pages.
+
+## Selected work
 
 <div class="cb-grid">
 

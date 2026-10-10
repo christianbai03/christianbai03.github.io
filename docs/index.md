@@ -9,7 +9,7 @@ hide:
 
 # Christian Bai
 
-![Christian Bai](assets/headshot.jpeg){ .cb-portrait }
+![Christian Bai, head and shoulders portrait](assets/headshot.jpeg){ .cb-portrait }
 
 <p class="cb-tagline">
 I break into systems so the people who own them don't have to find out the

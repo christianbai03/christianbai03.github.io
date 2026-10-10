@@ -45,7 +45,7 @@ owned the process of acting on what the checks returned.
 
 [^gao]: U.S. Government Accountability Office, *Data Protection: Actions Taken
     by Equifax and Federal Agencies in Response to the 2017 Breach*, GAO-18-559.
-    <https://www.gao.gov/products/gao-18-559>
+    [Read GAO-18-559 at gao.gov](https://www.gao.gov/products/gao-18-559)
 
 ## Deterrence, and why it bothered me
 
@@ -67,7 +67,7 @@ visible, credible chance of being noticed beats a severe penalty nobody expects
 to face.
 
 [^nij]: National Institute of Justice, *Five Things About Deterrence*.
-    <https://nij.ojp.gov/topics/articles/five-things-about-deterrence>
+    [Read Five Things About Deterrence at nij.ojp.gov](https://nij.ojp.gov/topics/articles/five-things-about-deterrence)
 
 ## Where it got difficult
 

@@ -5,7 +5,7 @@ hide:
 
 # About
 
-![Christian Bai](assets/headshot.jpeg){ .cb-portrait }
+![Christian Bai, head and shoulders portrait](assets/headshot.jpeg){ .cb-portrait }
 I'm a cybersecurity student and a working penetration tester based in Spotsylvania, VA, available for remote work.
 
 Most of what I do is offensive security. I run authorized penetration tests against web apps and network services: scope the engagement, find vulnerabilities, prove it, write it up. The write-up matters as much as the finding, since a vulnerability nobody understands doesn't get remediated.
