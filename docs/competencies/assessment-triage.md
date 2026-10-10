@@ -32,13 +32,6 @@ client, which is the opposite of what they paid for.
 The [cloud security assessment page](../projects/cloud-security-assessment.md)
 carries the methodology and an example finding structure.
 
-!!! danger "Before publishing specifics"
-
-    If the reviewed environment was a client's, do not publish findings without
-    written permission. Strip account IDs, ARNs, bucket names, and hostnames
-    first. Describing the class of finding without the target is always the safe
-    version.
-
 ## What the work changed
 
 The same judgment applies to application testing. Low-severity results have to be

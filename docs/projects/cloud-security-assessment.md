@@ -142,15 +142,4 @@ The diagram above is mine. I made it to show the shape of the work rather than
 describe it, since the triage step is the whole argument of this page and it's
 hard to picture from a paragraph.
 
-!!! danger "On publishing specifics from this assessment"
-
-    The findings from this review are not reproduced here. If a reviewed
-    environment belongs to a client, publishing account identifiers, ARNs,
-    bucket names, or hostnames is not something a written scope permits.
-    Describing the class of finding without the target is the version that
-    belongs on a public site.
-
-    That constraint is why this page carries a diagram of the methodology
-    instead of a screenshot of the console.
-
 [All projects](index.md){ .cb-btn .cb-btn--ghost }

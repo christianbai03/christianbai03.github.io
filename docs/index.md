@@ -71,25 +71,18 @@ Hashcat, Windows post-exploitation with Meterpreter, and Linux privilege and
 account management.</p>
 </a>
 
-<a class="cb-card" href="projects/network-wireless-security/">
-<span class="cb-num">04</span>
-<h3>Network and Wireless Security</h3>
-<p>IEEE 802.11 security, RF propagation, switch hierarchy, DNSSEC, and an
-analysis of where VPN implementations actually fail.</p>
-</a>
-
 <a class="cb-card" href="projects/cybersecurity-society/">
-<span class="cb-num">05</span>
+<span class="cb-num">04</span>
 <h3>Cybersecurity and Society</h3>
 <p>The human side. Breach analysis of Equifax, IoT risk, and coursework
 applying behavioral and criminological models to how people and systems fail.</p>
 </a>
 
-<a class="cb-card" href="projects/incident-response/">
-<span class="cb-num">06</span>
-<h3>Incident Response Simulation</h3>
-<p>Detection, analysis, containment, and recovery against a simulated
-intrusion, with the methodology and the decision points written down.</p>
+<a class="cb-card" href="projects/ai-system-security-testing/">
+<span class="cb-num">05</span>
+<h3>AI System Security Testing</h3>
+<p>Extracting a client chatbot's full system prompt through direct prompt
+injection, and why the usual injection categories do not describe it.</p>
 </a>
 
 </div>

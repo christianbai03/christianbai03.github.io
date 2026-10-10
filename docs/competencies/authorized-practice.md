@@ -30,10 +30,19 @@ the only record of what happened is memory.
 
 ## Evidence
 
-!!! note "Artifact to link"
+The document that decides whether testing is authorized work or a crime. Every
+client identifier, contact, hostname, IP address and date is removed. The
+scoping structure, the methodology basis in NIST SP 800-115 and OSSTMM, and the
+exclusions are intact.
 
-    A paper or memo from your cyber law and ethics coursework, or a sanitized
-    rules-of-engagement template.
+Two things in it are worth reading closely. The scope table lists each
+application with the specific accounts and roles provided, because authorization
+attaches to named targets rather than to an organization in general. The
+exclusions section rules out denial of service and destructive database queries
+outright, which answers the question of what a tester does when the fastest path
+to proving impact is the one the client did not agree to.
+
+[Rules of Engagement](../assets/samples/rules-of-engagement-redacted.pdf){ .cb-btn }
 
 ## What the work changed
 

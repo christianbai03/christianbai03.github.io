@@ -57,6 +57,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/external-links.js
+
 markdown_extensions:
   - abbr
   - admonition
@@ -116,8 +119,7 @@ nav:
       - Internship Experience: projects/internship.md
       - Cloud Security Assessment: projects/cloud-security-assessment.md
       - Offensive Security Labs: projects/offensive-security-labs.md
-      - Network and Wireless Security: projects/network-wireless-security.md
       - Cybersecurity and Society: projects/cybersecurity-society.md
-      - Incident Response Simulation: projects/incident-response.md
+      - AI System Security Testing: projects/ai-system-security-testing.md
   - Capstone Reflection: capstone.md
   - Contact: contact.md

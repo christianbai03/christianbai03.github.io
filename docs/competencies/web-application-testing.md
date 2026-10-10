@@ -34,13 +34,30 @@ nothing useful.
 
 ## Evidence
 
-!!! note "Artifacts to link"
+A finding from a client penetration test, published as a writing sample. The
+client, the application, every hostname, cookie name, token and account value
+are removed or replaced with placeholders. The timing values and the reasoning
+are unchanged.
 
-    - HackTheBox module completions or profile progress page
-    - Lab reports or write-ups from coursework
-    - Terminal captures from the exploitation exercises
+The application's password reset flow returns the same status code, the same
+redirect, and the same visible content whether or not the submitted address has
+an account behind it. By the usual checks it is not vulnerable, and testing by
+eye would record it that way.
 
-    Confirm every target was a lab or school system before publishing.
+What separates the two cases is how long the server takes. A valid address took
+1190 ms, an address with no account took 19 ms, and the application reported
+both in an `X-Runtime` response header, so the differential could be read
+directly rather than timed. The cause is almost certainly the reset email being
+sent before the response returns, which only happens when there is somewhere to
+send it.
+
+The write-up holds the severity at Low and says why. Enumerating through this
+endpoint mails a real password reset to every valid address it hits, so running
+it at any scale produces a wave of confused users and a help desk that notices.
+A finding can be real and still be expensive to exploit quietly, and a report
+that does not say so is overselling.
+
+[Read the finding](../assets/samples/redacted-finding-account-enumeration.pdf){ .cb-btn }
 
 ## What the work changed
 

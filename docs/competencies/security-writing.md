@@ -36,11 +36,23 @@ classification header for the risk owner.
 
 ## Evidence
 
-!!! note "Artifact to link"
+A finding from a client penetration test, published as a writing sample. The
+client, the application, every hostname, cookie name, token, route and date are
+removed or replaced with placeholders. The structure and the reasoning are
+unchanged.
 
-    One redacted finding write-up. Strip client names, hostnames, IP addresses,
-    ARNs, and account identifiers first, or reproduce the finding against a lab
-    target and publish that version instead.
+It is a Medium, not a High, and the write-up has to earn that. The application
+sat behind an upstream identity provider. Logging out ended the identity
+provider session correctly, so the obvious check passes. The application's own
+token kept working, including against the admin console.
+
+The part of that document I would point a reviewer at is the last request. After
+showing the replayed token returning 200, I sent the same request with no cookie
+at all and got a redirect to the sign-in page. Without that control, a reviewer
+is entitled to ask whether I had simply found a page that was public to begin
+with. One request closes the question before anybody has to ask it.
+
+[Read the finding](../assets/samples/redacted-finding-session-invalidation.pdf){ .cb-btn }
 
 ## What the work changed
 

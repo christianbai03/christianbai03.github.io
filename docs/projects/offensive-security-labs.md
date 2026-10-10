@@ -121,14 +121,39 @@ deal when the alternative is being wrong on a client engagement.
 
 ## Artifacts
 
-!!! note "Add your evidence here"
+### SQL injection against DVWA
 
-    Link two or three of the following, whichever you have on hand.
+The vulnerable parameter takes a user ID and returns the matching record. The
+payload below closes the quoted string and appends a condition that is always
+true, so the WHERE clause matches every row instead of one.
 
-    - Screenshots of completed HackTheBox modules or your profile progress page
-    - A lab report or write-up from your coursework
-    - Command logs or terminal captures from the Metasploit or password cracking
-      exercises
+<figure>
+  <img src="../../assets/labs/dvwa-sqli-payload.png"
+       alt="The DVWA User ID field containing the payload 1' OR '1'='1, with the
+            application returning a single record for ID 3, first name Hack,
+            surname Me.">
+  <figcaption>The payload in the User ID field. Submitting <code>1' OR '1'='1</code>
+  terminates the quoted value early and leaves a condition the database always
+  evaluates as true.</figcaption>
+</figure>
 
-    Screenshots of a shell on a lab target are strong evidence. Confirm the
-    target was a lab or school system before publishing anything.
+<figure>
+  <img src="../../assets/labs/dvwa-sqli-union-dump.png"
+       alt="The DVWA SQL injection page listing five returned records, each
+            showing ID 1' OR '1'='1 with first name and surname pairs including
+            admin, Gordon Brown, Hack Me, Pablo Picasso, and Bob Smith.">
+  <figcaption>The result. Every row in the users table comes back rather than the
+  one record the parameter was meant to select, which confirms the input reaches
+  the query unescaped.</figcaption>
+</figure>
+
+The useful detail is the echoed ID. The application prints the submitted value
+back as the record identifier, so the full payload appears where a number should
+be. That echo is what tells you the input is being concatenated into the
+statement rather than bound to a parameter, before you have confirmed anything
+about the database behind it.
+
+DVWA is a deliberately vulnerable application built for this purpose and run
+locally. No system belonging to anyone else was involved.
+
+[All projects](index.md){ .cb-btn .cb-btn--ghost }

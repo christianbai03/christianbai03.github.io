@@ -28,22 +28,16 @@ Supporting documents are linked on the individual pages.
 <p>Credential attacks, Windows post-exploitation, and Linux account management.</p>
 </a>
 
-<a class="cb-card" href="network-wireless-security/">
-<span class="cb-num">04</span>
-<h3>Network and Wireless Security</h3>
-<p>802.11 security, RF propagation, DNSSEC, and VPN failure modes.</p>
-</a>
-
 <a class="cb-card" href="cybersecurity-society/">
-<span class="cb-num">05</span>
+<span class="cb-num">04</span>
 <h3>Cybersecurity and Society</h3>
 <p>Equifax breach analysis, IoT risk, and behavioral models of failure.</p>
 </a>
 
-<a class="cb-card" href="incident-response/">
-<span class="cb-num">06</span>
-<h3>Incident Response Simulation</h3>
-<p>Detection through recovery against a simulated intrusion.</p>
+<a class="cb-card" href="ai-system-security-testing/">
+<span class="cb-num">05</span>
+<h3>AI System Security Testing</h3>
+<p>Prompt injection against a client chatbot, and why it is its own category.</p>
 </a>
 
 </div>
