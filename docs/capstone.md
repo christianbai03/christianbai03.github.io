@@ -35,9 +35,9 @@ the job I had come there to learn.
 
 When leadership on that engagement changed I asked to move over. I was an intern
 with no track record making a request I had no standing to make, and I spent the
-week after it expecting to be told no. That request is the most consequential
-thing I did in two years, and everything on my
-[internship page](projects/internship.md) exists because of it.
+week after expecting to be told no. It is the most consequential thing I did in
+two years, and everything on my [internship page](projects/internship.md) exists
+because of it.
 
 My first solo test was a web application with multiple user roles. I came out of
 it with stored cross-site scripting, parameter tampering, missing authentication
@@ -96,21 +96,20 @@ say.</figcaption>
 
 Looking back across these pages, two things keep showing up.
 
-The first is that finding a problem is the easy half. A redacted finding on my
+The first is that finding a problem is the easy half. A finding on my
 [security writing](competencies/security-writing.md) page covers an application
-that returned the same status code, redirect, and visible content whether or not
-an email address had an account behind it. By every normal check it was fine. The
+that returned the same status code, redirect, and content whether or not an
+email address had an account behind it. By every normal check it was fine. The
 only thing separating the two cases was 1190 milliseconds against 19, and
-writing it up so somebody would act on it took longer than finding it.
+writing it up took longer than finding it.
 
 The second is that technical severity and organizational risk are different
 quantities, which CYSE 201S taught me before a client did. I expected to write
 about the Equifax exploit and found the Government Accountability Office
 identified four contributing factors, three of them organizational. A company
 can pass every check on a list and still lose 140 million records because nobody
-owned acting on what those checks returned. My
-[cybersecurity and society](projects/cybersecurity-society.md) page is built on
-that.
+owned acting on the results. That is what my
+[cybersecurity and society](projects/cybersecurity-society.md) page argues.
 
 Criminology coursework connected in a way I hadn't anticipated. Designing spear
 phishing for a red team engagement, I used rational choice theory to weigh which
@@ -119,9 +118,9 @@ calculation a real attacker runs too.
 
 Report writing is the skill that grew most, and it isn't close. I knew
 documentation mattered. What I didn't know is that most of the value a client
-gets from a test lives in the written deliverable, and that a finding nobody can
-act on is worth about as much as one I never found. I am still not a fast
-writer. I am just a more careful one than I was.
+gets from a test lives in the written deliverable, and a finding nobody can act
+on is worth about what one I never found is worth. I am still not a fast writer,
+just a more careful one.
 
 ## Looking forward
 
@@ -154,14 +153,18 @@ grid while Skills was four stacked text blocks. I had no answer. I built them
 weeks apart and never looked at the two side by side, which is how most
 inconsistency happens.
 
-The third I expect to matter longest. Late in the term I wanted to publish real
-client documents as evidence. Reading them again, one was eight days past its
-testing window with the report undelivered, naming four client employees, a
-staging hostname, and a colleague's cell number. Stripping the names wouldn't
-have fixed it. What went up instead is a
-[sanitized finding](competencies/web-application-testing.md) and a redacted
-[rules of engagement](competencies/authorized-practice.md). Deciding what not to
-publish is the same judgment a scope agreement asks for.
+The third I expect to matter longest. Most of the way through the term I had
+pages I was proud of and nothing attached to them. Every competency page ended
+with an evidence heading and white space. A portfolio of claims with nothing
+behind it is what most portfolios already are, and mine was one without my
+noticing.
+
+Filling those sections was harder than finding material. I work on client
+engagements and almost none of it can be published as it stands. What went up is
+a [sanitized finding](competencies/web-application-testing.md) and a redacted
+[rules of engagement](competencies/authorized-practice.md), identifiers stripped
+and reasoning intact. Deciding what could not go up took longer than writing
+what did.
 
 My advice to anyone starting one of these is to write the thing you got wrong.
 My project pages name constraints that cost me hours before I understood them. I
