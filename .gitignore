@@ -3,3 +3,6 @@ site/
 __pycache__/
 .DS_Store
 /Claude outputs
+
+# local scratch, not published
+_removed/
