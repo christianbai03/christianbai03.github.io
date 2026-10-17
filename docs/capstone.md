@@ -172,8 +172,5 @@ am betting a practitioner trusts a write-up that admits a limitation over one
 claiming a clean result, though I won't know whether that bet is right until
 somebody in a position to hire me actually reads one.
 
-This site isn't finished and shouldn't be. Next up is the OSCP when I pass it,
-then more evidence behind the claims I've already made.
-
 [All projects](projects/index.md){ .cb-btn }
 [Get in touch](contact.md){ .cb-btn .cb-btn--ghost }
